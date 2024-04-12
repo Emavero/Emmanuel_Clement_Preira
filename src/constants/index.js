@@ -1,5 +1,4 @@
-import {
-  mobile,
+import { mobile,
   backend,
   creator,
   web,
@@ -23,8 +22,8 @@ import {
   jobit,
   tripguide,
   threejs,
-} from "../assets";
-
+  } from "../assets";
+  import {devops} from 
 export const navLinks = [
   {
     id: "about",
@@ -42,20 +41,24 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Développeur Web",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Dev Mobile",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Fullstack Developer",
     icon: backend,
   },
   {
     title: "Content Creator",
     icon: creator,
+  },
+  {
+    title: "Devops",
+    icon: devops,
   },
 ];
 

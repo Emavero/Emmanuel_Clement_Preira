@@ -15,17 +15,17 @@ const Hero = () => {
         </div>
 
         <div>
-          <h1 className={`${styles.heroHeadText} text-white`}>
-            Hi, I'm <span className='text-[#915EFF]'>Adrian</span>
-          </h1>
+          <h6 className={`${styles.heroHeadText} text-white`}>
+          Salut ! Je suis  <span className='text-[#915EFF]'>Emmanuel</span>
+          </h6>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I develop 3D visuals, user <br className='sm:block hidden' />
-            interfaces and web applications
+          étudiant en génie  <br className='sm:block hidden' />
+          logiciel à l'ENSIAS.
           </p>
         </div>
       </div>
 
-      
+      <ComputersCanvas />
 
       <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center'>
         <a href='#about'>
@@ -44,7 +44,6 @@ const Hero = () => {
           </div>
         </a>
       </div>
-      <ComputersCanvas />
     </section>
   );
 };

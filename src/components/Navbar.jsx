@@ -43,11 +43,23 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}
         >
-          <img src="src\assets\logo1.png" alt='logo' className='w-9 h-9 object-contain' />
+          <img src="src\assets\maphoto.jpeg" alt='logo' className='w-9 h-9 object-contain' />
           <p className='text-white text-[18px] font-bold cursor-pointer flex '>
             Emmanuel Clement PREIRA
           </p>
         </Link>
+        <div className="flex gap-4"> 
+  <a href='www.linkedin.com/in/emmanuel-clément-preira-817161222/' target='_blank' rel='noopener noreferrer'>
+    <img src="src\assets\Linkedin.png" alt='logo' className='w-9 h-9 object-contain' />
+  </a>
+  <a href='https://github.com/Emavero' target='_blank' rel='noopener noreferrer'>
+    <img src="src\assets\github.png" alt='logo' className='w-9 h-9 object-contain' />
+  </a>
+  <a href='mailto:preiraclement79@gmail.com' target='_blank' rel='noopener noreferrer'>
+    <img src="src\assets\email.png" alt='logo' className='w-9 h-9 object-contain' />
+  </a>
+</div>
+ 
         {/* Les elements de menu de navigation  */}
        <ul className='list-none hidden sm:flex flex-row gap-10'>
           {navLinks.map((nav) => (
@@ -74,7 +86,7 @@ const Navbar = () => {
           <div
             className={`${
               !toggle ? "hidden" : "flex"
-            } p-6 black-gradient absolute top-20 right-0 mx-4 my-2 min-w-[140px] z-10 rounded-xl`}
+            } p-6 black-gradient absolute top-20 right-0 mx-4 my-2 min-w-[10px] z-10 rounded-xl`}
           >
             <ul className='list-none flex justify-end items-start flex-1 flex-col gap-4'>
               {navLinks.map((nav) => (

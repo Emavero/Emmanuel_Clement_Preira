@@ -1,6 +1,5 @@
-import { mobile,
+import {
   backend,
-  creator,
   Ai,
   ensias,
   Hassan2,
@@ -12,7 +11,6 @@ import { mobile,
   Spring,
   mysql,
   angular,
-  web,
   javascript,
   typescript,
   reactjs,
@@ -43,20 +41,8 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Développeur Web",
-    icon: web,
-  },
-  {
-    title: "Dev Mobile",
-    icon: mobile,
-  },
-  {
     title: "Développeur Fullstack",
     icon: backend,
-  },
-  {
-    title: "Content Creator",
-    icon: creator,
   },
   {
     title: "Devops",
@@ -157,7 +143,7 @@ const experiences = [
     company_name: "Lycée de Pikine (Sénégal)",
     icon: lpk,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "Juillet 2019",
     points: [
       "Baccalauréat série C",
     ],

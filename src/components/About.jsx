@@ -76,7 +76,7 @@ const About = () => {
         un chemin d'apprentissage continu et de développement personnel, contribuant ainsi à façonner l'avenir de la technologie.
       </motion.p>
 
-     <div className='mt-10 flex flex-wrap gap-3'>
+     <div className='mt-10 flex flex-wrap gap-8'>
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
         ))}

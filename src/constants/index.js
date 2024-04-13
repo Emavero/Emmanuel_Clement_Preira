@@ -1,29 +1,31 @@
 import { mobile,
   backend,
   creator,
+  Ai,
+  ensias,
+  Hassan2,
+  lpk,
+  Java,
+  Kubernetes,
+  Nextjs,
+  Php,
+  Spring,
+  mysql,
+  angular,
   web,
   javascript,
   typescript,
-  html,
-  css,
   reactjs,
-  redux,
-  tailwind,
-  nodejs,
-  mongodb,
+  devops,
+  dAs,
+  facerecon,
+  pacal,
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
   threejs,
   } from "../assets";
-  import {devops} from 
+
 export const navLinks = [
   {
     id: "about",
@@ -31,7 +33,7 @@ export const navLinks = [
   },
   {
     id: "work",
-    title: "Projets",
+    title: "Parcours",
   },
   {
     id: "contact",
@@ -49,7 +51,7 @@ const services = [
     icon: mobile,
   },
   {
-    title: "Fullstack Developer",
+    title: "Développeur Fullstack",
     icon: backend,
   },
   {
@@ -60,16 +62,20 @@ const services = [
     title: "Devops",
     icon: devops,
   },
+  {
+    title: "Ai",
+    icon: Ai,
+  },
 ];
 
 const technologies = [
   {
-    name: "HTML 5",
-    icon: html,
+    name: "Nextjs",
+    icon: Nextjs,
   },
   {
-    name: "CSS 3",
-    icon: css,
+    name: "Php",
+    icon: Php,
   },
   {
     name: "JavaScript",
@@ -84,20 +90,20 @@ const technologies = [
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
+    name: "Angular",
+    icon: angular,
   },
   {
-    name: "Tailwind CSS",
-    icon: tailwind,
+    name: "Kubernetes",
+    icon: Kubernetes,
   },
   {
-    name: "Node JS",
-    icon: nodejs,
+    name: "Spring",
+    icon: Spring,
   },
   {
-    name: "MongoDB",
-    icon: mongodb,
+    name: "Mysql",
+    icon: mysql,
   },
   {
     name: "Three JS",
@@ -115,59 +121,45 @@ const technologies = [
     name: "docker",
     icon: docker,
   },
+  {
+    name: "Java",
+    icon: Java,
+  },
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Étudiant en génie logiciel",
+    company_name: "ENSIAS(Rabat, Maroc)",
+    icon: ensias,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "2023-2025",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Acquisition des bases solides en programmation, en algorithmique et en structures de données.",
+      "Exploration des langages de programmation couramment utilisés dans l'industrie ainsi que les concepts avancés de génie logiciel tels que la conception logicielle,le développement web, la gestion de projet et les méthodes de développement agile",
+      "Des projets pratiques,des travaux de groupe et des stages en entreprise pour acquérir une expérience concrète et développer les compétences nécessaires",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Étudiant",
+    company_name: "Université Hassan II de Casablanca (Maroc)",
+    icon: Hassan2,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "2019-2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "2021-2022 : Licence en Mathématiques Appliquées avec Mention Bien.",
+      "2019-2021 : Diplôme d'Études Universitaires Scientifiques et Techniques (DEUST) en Mathématiques-Informatique-Physique avec Mention Bien.",
+      ,
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "Élève",
+    company_name: "Lycée de Pikine (Sénégal)",
+    icon: lpk,
     iconBg: "#383E56",
     date: "Jan 2022 - Jan 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Baccalauréat série C",
     ],
   },
 ];
@@ -201,66 +193,77 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    
+    name: "Mini Compilateur  Pascal",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Un projet passionnant où j'ai pu mettre en pratique mes compétences en conception logicielle.Ce mini-compilateur est capable d'analyser et d'interpréter le code source écrit en Pascal, en vérifiant sa syntaxe et en générant du code machine correspondant.",
     tags: [
       {
-        name: "react",
+        name: "Pascal",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "C",
         color: "green-text-gradient",
       },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: pacal,
+    source_code_link: "https://github.com/Emavero/Pascal-Compiler",
   },
   {
-    name: "Job IT",
+    name: "Gestionnaire-Stage-ECM",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "En collaboration avec deux collègues, nous avons achevé un projet de développement d'un gestionnaire de stages en utilisant le Système de Gestion de Base de Données PostgreSQL.Ce projet a permis à l'école de disposer d'un outil efficace pour gérer les stages des étudiants tout au long de leur scolarité. Ensemble, nous avons conçu et développé une application web conviviale qui offre à l'administration la possibilité de suivre facilement le déroulement des stages des étudiants.",
     tags: [
       {
-        name: "react",
+        name: "Angular",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "Spring",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
-        color: "pink-text-gradient",
+        name: "Postman",
+        color: "yellow-text-gradient",
       },
+      {
+        name: "Bootstrap",
+        color: "green-text-gradient",
+      },
+      {
+        name: "PostgreSQL",
+        color: "pink-text-gradient",
+       
+      },
+      {
+        name: "TypeScript",
+        color: "blue-text-gradient",
+        
+      }
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: dAs,
+    source_code_link: "https://github.com/Emavero/Gestionnaire-Stage-ECM",
   },
   {
-    name: "Trip Guide",
+    name: "Application de reconnaissance faciale",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Cette application utilise des techniques d'intelligence artificielle pour détecter et authentifier les visages. Conçue pour être polyvalente, elle peut être utilisée dans divers domaines tels que la sécurité, le contrôle d'accès ou simplement pour la commodité de déverrouillage des appareils.",
     tags: [
       {
-        name: "nextjs",
+        name: "Flask framework",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "SQLite,",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "Python",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
+    image: facerecon,
     source_code_link: "https://github.com/",
   },
 ];

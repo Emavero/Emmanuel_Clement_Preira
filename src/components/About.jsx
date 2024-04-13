@@ -60,9 +60,7 @@ const About = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p>
       <CenteredImage src="src\assets\maphoto.jpeg" alt="Ma photo" />
-    </p>
       </motion.div>
 
       <motion.p

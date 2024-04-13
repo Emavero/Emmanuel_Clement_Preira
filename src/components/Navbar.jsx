@@ -45,8 +45,7 @@ const Navbar = () => {
         >
           <img src="src\assets\logo1.png" alt='logo' className='w-9 h-9 object-contain' />
           <p className='text-white text-[18px] font-bold cursor-pointer flex '>
-            Emmanuel Clement PREIRA &nbsp;
-            <span className='sm:block hidden'> | Élève ingénieur en génie logiciel</span>
+            Emmanuel Clement PREIRA
           </p>
         </Link>
         {/* Les elements de menu de navigation  */}

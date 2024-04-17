@@ -68,7 +68,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         //className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-       Je suis étudiant en génie logiciel à l'ENSIAS,
+       Je suis étudiant en génie logiciel à l'ENSIAS Rabat,
        une école réputée pour son excellence en informatique au Maroc.
        Ma passion pour le développement de logiciels est ce qui m'anime au quotidien.
        Mon engagement dans ce domaine me pousse à explorer continuellement de nouvelles connaissances et compétences.

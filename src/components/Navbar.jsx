@@ -5,6 +5,12 @@ import { styles } from "../styles";
 import { navLinks } from "../constants";
 import {  menu, close } from "../assets";
 
+import LinkedinImage from "../assets/linkedin.png";
+import githubImage from "../assets/github.png";
+import emailImage from "../assets/email.png";
+import maphoto from "../assets/maphoto.jpeg";
+
+ 
 const Navbar = () => {
   const [active, setActive] = useState("");
   const [toggle, setToggle] = useState(false);
@@ -43,20 +49,20 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}
         >
-          <img src='src\assets\maphoto.jpeg' alt='logo' className='w-9 h-9 object-contain' />
+          <img src={maphoto} alt='logo' className='w-9 h-9 object-contain' />
           <p className='text-white text-[18px] font-bold cursor-pointer flex '>
             Emmanuel Clement PREIRA
           </p>
         </Link>
         <div className="flex gap-4"> 
   <a href='www.linkedin.com/in/emmanuel-clément-preira-817161222/' target='_blank' rel='noopener noreferrer'>
-    <img src='src\assets\Linkedin.png' alt='logo' className='w-9 h-9 object-contain' />
+    <img src={LinkedinImage}alt='logo' className='w-9 h-9 object-contain' />
   </a>
   <a href='https://github.com/Emavero' target='_blank' rel='noopener noreferrer'>
-    <img src="src\assets\github.png" alt='logo' className='w-9 h-9 object-contain' />
+    <img src={githubImage} alt='logo' className='w-9 h-9 object-contain' />
   </a>
   <a href='mailto:preiraclement79@gmail.com' target='_blank' rel='noopener noreferrer'>
-    <img src="src\assets\email.png" alt='logo' className='w-9 h-9 object-contain' />
+    <img src={emailImage} alt='logo' className='w-9 h-9 object-contain' />
   </a>
 </div>
  

@@ -6,6 +6,7 @@ import { styles } from "../styles";
 import { services } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../utils/motion";
+import    maphoto from "../assets/maphoto.jpeg"
 
 const ServiceCard = ({ index, title, icon }) => (
   <Tilt className='xs:w-[250px] w-full'>
@@ -60,7 +61,7 @@ const About = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-      <CenteredImage src="src\assets\maphoto.jpeg" alt="Ma photo" />
+      <CenteredImage src={maphoto} alt="Ma photo" />
       </motion.div>
 
       <motion.p

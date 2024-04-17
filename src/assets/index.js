@@ -20,7 +20,6 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
-import Jee from "./tech/Jee.png";
 import Java from "./tech/Java.png";
 import Kubernetes from "./tech/Kubernetes.png";
 import Nextjs from "./tech/Nextjs.png";
@@ -31,9 +30,8 @@ import Bootstrap from "./tech/Bootstrap.png";
 
 
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+
+
 import devops from "./devops.png"
 import Ai from "./Ai.png"
 import ensias from "./company/ensias.png"
@@ -51,7 +49,6 @@ export {
   Hassan2,
   lpk,
   Java,
-  Jee,
   Kubernetes,
   Nextjs,
   Php,
@@ -81,7 +78,4 @@ export {
   tailwind,
   typescript,
   threejs,
-  carrent,
-  jobit,
-  tripguide,
 };

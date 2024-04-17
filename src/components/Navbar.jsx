@@ -55,7 +55,7 @@ const Navbar = () => {
           </p>
         </Link>
         <div className="flex gap-4"> 
-  <a href='www.linkedin.com/in/emmanuel-clément-preira-817161222/' target='_blank' rel='noopener noreferrer'>
+  <a href='https://www.linkedin.com/in/emmanuel-cl%C3%A9ment-preira-817161222/' target='_blank' rel='noopener noreferrer'>
     <img src={LinkedinImage}alt='logo' className='w-9 h-9 object-contain' />
   </a>
   <a href='https://github.com/Emavero' target='_blank' rel='noopener noreferrer'>
@@ -66,7 +66,6 @@ const Navbar = () => {
   </a>
 </div>
  
-        {/* Les elements de menu de navigation  */}
        <ul className='list-none hidden sm:flex flex-row gap-10'>
           {navLinks.map((nav) => (
             <li

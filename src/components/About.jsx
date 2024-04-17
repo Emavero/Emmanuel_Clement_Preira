@@ -68,13 +68,13 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         //className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-       Je suis un étudiant en génie logiciel à l'ENSIAS,
-        une école reconnue pour son excellence en informatique au Maroc, 
-        je suis passionné par le développement de logiciels. 
-        Mon engagement dans ce domaine me pousse à explorer constamment de nouvelles connaissances et compétences.
-        Mon désir de faire une différence et ma volonté d'utiliser la technologie pour résoudre des problèmes complexes 
-        et améliorer les expériences humaines sont des moteurs essentiels de mon parcours. Je suis déterminé à poursuivre
-        un chemin d'apprentissage continu et de développement personnel, contribuant ainsi à façonner l'avenir de la technologie.
+       Je suis étudiant en génie logiciel à l'ENSIAS,
+       une école réputée pour son excellence en informatique au Maroc.
+       Ma passion pour le développement de logiciels est ce qui m'anime au quotidien.
+       Mon engagement dans ce domaine me pousse à explorer continuellement de nouvelles connaissances et compétences.
+      Je suis animé par le désir de faire une différence et la volonté d'utiliser la technologie pour résoudre des problèmes complexes et améliorer les expériences humaines, des motivations essentielles dans mon parcours. 
+      Je suis déterminé à poursuivre un chemin d'apprentissage continu et de développement personnel, contribuant ainsi à façonner l'avenir de la technologie. 
+      En parallèle de mes études, mon intérêt pour l'entrepreneuriat se manifeste. En dehors des cours, je nourris une passion profonde pour la musique, étant moi-même pianiste.
       </motion.p>
 
      <div className='mt-10 flex flex-wrap gap-8'>

@@ -43,14 +43,14 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}
         >
-          <img src="src\assets\maphoto.jpeg" alt='logo' className='w-9 h-9 object-contain' />
+          <img src='src\assets\maphoto.jpeg' alt='logo' className='w-9 h-9 object-contain' />
           <p className='text-white text-[18px] font-bold cursor-pointer flex '>
             Emmanuel Clement PREIRA
           </p>
         </Link>
         <div className="flex gap-4"> 
   <a href='www.linkedin.com/in/emmanuel-clément-preira-817161222/' target='_blank' rel='noopener noreferrer'>
-    <img src="src\assets\Linkedin.png" alt='logo' className='w-9 h-9 object-contain' />
+    <img src='src\assets\Linkedin.png' alt='logo' className='w-9 h-9 object-contain' />
   </a>
   <a href='https://github.com/Emavero' target='_blank' rel='noopener noreferrer'>
     <img src="src\assets\github.png" alt='logo' className='w-9 h-9 object-contain' />

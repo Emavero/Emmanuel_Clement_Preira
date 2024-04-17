@@ -119,7 +119,7 @@ const experiences = [
     company_name: "ENSIAS(Rabat, Maroc)",
     icon: ensias,
     iconBg: "#383E56",
-    date: "2023-2025",
+    date: "2022-2025",
     points: [
       "Acquisition des bases solides en programmation, en algorithmique et en structures de données.",
       "Exploration des langages de programmation couramment utilisés dans l'industrie ainsi que les concepts avancés de génie logiciel tels que la conception logicielle,le développement web, la gestion de projet et les méthodes de développement agile",
@@ -145,7 +145,7 @@ const experiences = [
     iconBg: "#383E56",
     date: "Juillet 2019",
     points: [
-      "Baccalauréat série C",
+      "Baccalauréat en série C",
     ],
   },
 ];
